@@ -12,16 +12,13 @@ export const Navigation = () => {
 
                     <ul>
                         <li>
-                            <NavLink to="/" className={({ isActive }) => isActive ? 'nav-active' : ''}>Shopping Page</NavLink>
+                            <NavLink to="/" className={({ isActive }) => isActive ? 'nav-active' : ''}>Shopping</NavLink>
                         </li>
                         <li>
                             <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-active' : ''}>About</NavLink>
                         </li>
                         <li>
                             <NavLink to="/users" className={({ isActive }) => isActive ? 'nav-active' : ''}>Users</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/Usuarios" >Tamos Chelos Usuarios</NavLink>
                         </li>
                     </ul>
                 </nav>
