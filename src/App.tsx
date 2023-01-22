@@ -1,11 +1,10 @@
 import { Navigation } from './routes/Navigation';
 
-function App() {
+export function App()  {
   return (
     <>
       <Navigation/>
     </>
   );
-}
+};
 
-export default App;

@@ -88,5 +88,3 @@ export const FormikAbstraction = () => {
         </div>
     )
 };
-
-export default FormikAbstraction;

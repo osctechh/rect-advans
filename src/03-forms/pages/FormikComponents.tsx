@@ -87,5 +87,3 @@ export const FormikComponents = () => {
         </div>
     )
 };
-
-export default FormikComponents;

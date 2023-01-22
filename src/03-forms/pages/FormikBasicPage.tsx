@@ -1,12 +1,12 @@
 import { FormikErrors, useFormik } from 'formik';
 
-import "../styles/styles.css"
+import "../styles/styles.css";
 
 interface FormValues {
     firstName: string;
     lastName: string;
     email: string;
-}
+};
 
 export const FormikBasicPage = () => {
 
@@ -93,5 +93,3 @@ export const FormikBasicPage = () => {
         </div>
     )
 }
-
-export default FormikBasicPage
